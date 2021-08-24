@@ -3,8 +3,8 @@ const All = () => {
         <div>
           <header id="home" className="section">
             <div className="header_main">
-              {/* header inner */}
-              <div className="header">
+ 
+              {/* <div className="header">
                 <div className="container">
                   <div className="row">
                     <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
@@ -32,8 +32,7 @@ const All = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* end header inner */}
+              </div> */}
               <section>
                 <div className="bannen_inner">
                   <div className="container">
