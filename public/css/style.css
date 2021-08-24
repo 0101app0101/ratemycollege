@@ -39,6 +39,7 @@ body {
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden;
+     
 }
 
 a {
@@ -217,9 +218,18 @@ ul, li, ol {
 }
 
 .bannen_inner{
-	width: 100%;
-	float: left;
+	/* width: 100%; */
+	/* float: left; */
+    margin-left: 18%;
 }
+
+@media only screen and (max-width: 600px) {
+    .bannen_inner {
+        margin-left: 1%;
+    }
+  }
+
+
 .taital_main{
 	width: 100%;
 	float: left;
