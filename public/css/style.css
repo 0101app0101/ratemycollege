@@ -305,7 +305,9 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 .power_full{
 	width: 100%;
 	float: left;
-	background-color: #2aaf80;
+    background:url(/Assets/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg) rgba(0, 0, 0, .4);
+    background-size:cover;
+    background-blend-mode: multiply;
 	border-radius: 30px;
 	padding: 20px;
 	box-shadow: 0px 0px 8px 0px;
@@ -679,7 +681,21 @@ button.main_bt a:hover {
 .footer_menu{ padding-right: 10px; }
 
 
-
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}
+.slick-next:before {
+    content: "\2192";
+}
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 
 
