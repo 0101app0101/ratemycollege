@@ -470,7 +470,10 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	float: left;
 	margin-top: 10px;
 	margin-bottom: 10px;	
-	background-color: #2ba879;
+	background: url(/Assets/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg)rgba(0, 0, 0, .4);
+    background-size: cover;
+    background-blend-mode: multiply;
+
 	border-radius: 20px;
 	box-shadow: 0px 0px 8px 0px;
 
