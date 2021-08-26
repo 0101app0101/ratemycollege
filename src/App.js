@@ -1,9 +1,14 @@
 import Cards from "./components/Cards";
+import Reviews from "./components/Reviews";
+import Ratings from "./components/Ratings";
+import Banner from "./components/Banner";
 
 function App() {
   return(
     <>
-<Cards/>
+    <Banner/>
+<Ratings></Ratings>
+<Reviews/>
 
 
     </>

@@ -1,0 +1,9 @@
+.link-grey { color: #aaa; } .link-grey:hover { color: #00913b; }
+section{overflow-x: hidden;}
+
+@media only screen and (max-width: 600px) {
+    .comments-text{
+
+        padding-top: 5%;
+    }
+  }
