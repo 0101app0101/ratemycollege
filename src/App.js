@@ -1,14 +1,13 @@
 import Cards from "./components/Cards";
-import Reviews from "./components/Reviews";
-import Ratings from "./components/Ratings";
-import Banner from "./components/Banner";
+import Colleges from "./components/Colleges";
+import Stuff from "./components/Stuff";
 
 function App() {
   return(
     <>
-    <Banner/>
-<Ratings></Ratings>
-<Reviews/>
+<Cards/>
+<Stuff/>
+<Colleges/>
 
 
     </>
