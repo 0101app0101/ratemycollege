@@ -303,6 +303,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 }
 
 .power_full{
+    min-height: 350px;
 	width: 100%;
 	float: left;
     background:url(/Assets/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg) rgba(0, 0, 0, .4);
@@ -473,6 +474,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	background: url(/Assets/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg)rgba(0, 0, 0, .4);
     background-size: cover;
     background-blend-mode: multiply;
+    min-height: 350px;
 
 	border-radius: 20px;
 	box-shadow: 0px 0px 8px 0px;
