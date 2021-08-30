@@ -8,7 +8,7 @@ const Stars=()=>{
   <form action>
     {" "}
     <input className="star star-5" id="star-5" type="radio" name="star" />{" "}
-    <label className="star star-5" htmlFor="star-5" />{" "}
+    <label className="star star-5" htmlFor="star-5" />{""}
     <input className="star star-4" id="star-4" type="radio" name="star" />{" "}
     <label className="star star-4" htmlFor="star-4" />{" "}
     <input className="star star-3" id="star-3" type="radio" name="star" />{" "}
