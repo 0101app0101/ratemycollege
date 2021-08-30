@@ -9,6 +9,7 @@ import Ratings from "./components/Ratings";
 import Banner from "./components/Banner";
 import Addclg from "./components/Addclg"
 import SearchBar from "./components/SearchBar"
+import Footer from "./components/Footer";
 
 function App() {
   return(
@@ -24,7 +25,7 @@ function App() {
 <Ratingpg/>
 <Colleges/>
 <Addclg/>
-
+<Footer />
 
 
 
