@@ -1,12 +1,13 @@
 
-import Form from "./Form"
+import CollegeReviewForm
+ from "./CollegeReviewForm"
 
 
 
 const Ratingpg = () => {
     return (
       <>
-        <Form/>
+    < CollegeReviewForm />
       </>
     );
   };
