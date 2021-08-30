@@ -28,7 +28,7 @@ input.star:checked~label.star:before {
 input.star-5:checked~label.star:before {
     color: #FE7;
     text-shadow: 0 0 20px #952
-}
+}                        
 
 input.star-1:checked~label.star:before {
     color: #F62
@@ -40,5 +40,5 @@ label.star:hover {
 
 label.star:before {
     content: '\f006';
-    font-family: FontAwesome
+    font-family: FontAwesome                         
 }
