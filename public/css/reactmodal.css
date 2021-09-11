@@ -1,0 +1,28 @@
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  .ReactModal__Content--after-open{
+    height: 70%;
+    width: 60%;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .ReactModal__Content--after-open{
+        height: 70%;
+       width: 80%;
+        margin: auto;
+      }
+    
+  }
