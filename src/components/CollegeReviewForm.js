@@ -38,7 +38,7 @@ const CollegeReviewForm =()=>{
     }
 
     return(
-<form className='rate__form'>
+<form className='rate__form' >
           <a href='/school/Harvard-University'>
             <div className='u-d--cursor u-d--flex'>
               <div className='u-m-h--sm'>All Harvard University Dorms</div>

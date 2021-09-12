@@ -10,7 +10,7 @@ const ReviewScreen=()=>{
   
         <Ratings/>
         <Reviews/>
-        <Banner/>
+        
         </>
         
     )
