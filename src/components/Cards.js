@@ -88,10 +88,9 @@ const Cards=()=>{
     
                <Slider {...settings}>
                 
+        <Card />
         <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card />
         <Card/>
     
         </Slider>
