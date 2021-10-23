@@ -25,10 +25,10 @@ function App() {
          
     <Router>
             <>
-        <NavBar/>
+      
         <Switch>
         <Route path="/" exact component={HomeScreen}/>
-        <Route path="/Review" component={ReviewScreen}/>
+        <Route path="/Review/:id" component={ReviewScreen}/>
         </Switch>
         </>
      

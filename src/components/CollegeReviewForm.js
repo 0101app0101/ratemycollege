@@ -1,8 +1,22 @@
 import { useState } from 'react';
 import StarRatings from 'react-star-ratings';
 import {FaRegStar} from 'react-icons'
+import {addReview} from '../Actions/Action'
+import { useDispatch } from 'react-redux';
 
-const CollegeReviewForm =()=>{
+const CollegeReviewForm =({Id})=>{
+ 
+
+  const addreview=(e)=>{
+    dispatch(addReview(inputvalue, Id),e.preventDefault(),setInputvalue(''))
+  }
+
+  
+
+  
+
+  const dispatch= useDispatch()
+  const [inputvalue,setInputvalue]=useState('')
 
   const [starstate, setStarState] = useState({
 
@@ -172,8 +186,9 @@ const CollegeReviewForm =()=>{
           </div>
           <div class="form-group">
   <label for="comment">Comment:</label>
-  <textarea class="form-control" rows="5" id="comment"></textarea>
+  <textarea class="form-control" value={inputvalue} onChange={(e)=>setInputvalue(e.target.value)} rows="5" id="comment"></textarea>
 </div>
+<div><button className="btn btn-primary btn-lg" type="submit" onClick={addreview}>submit</button></div>
         </form>
 
 

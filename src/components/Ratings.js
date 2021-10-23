@@ -1,6 +1,13 @@
-import { FaStar } from 'react-icons/fa';
 
-const Ratings =()=>(
+import { FaStar } from 'react-icons/fa';
+import Data from '../Data';
+
+
+const Ratings =({product})=>{
+
+
+  return(
+
     <div className="container">
     <div className="ratings">
     <span className="heading">User Rating</span>
@@ -9,7 +16,7 @@ const Ratings =()=>(
     <span className="fa fa-star checked" />
     <span className="fa fa-star checked" />
     <span className="fa fa-star" />
-    <p>4.1 average based on 254 reviews.</p>
+    <p>4.1 average based  {product.reviews} </p>
     <hr style={{border: '3px solid #f1f1f1'}} />
     <div className="row">
       <div className="side">
@@ -70,5 +77,11 @@ const Ratings =()=>(
     </div>
   </div>
   </div>
-)
+
+  
+    
+
+  )
+  }
+  
 export default Ratings

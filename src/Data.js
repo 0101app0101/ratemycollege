@@ -1,28 +1,42 @@
-const Data=[
+const Data={
+    products:[
 
     {
         id:1,
         name:"east west college",
         state:"karnataka",
         reviews:3,
+        comment:["akshay","hfhgfdhgfdxgfdxgfxsfg"]
         
 
     },
     {
         id:2,
-        name:"east west college",
+        name:"east wwwwcollege",
         state:"kerela",
-        reviews:3,
+        reviews:9,
+        comment:["helollwllwllw","olalalalalal","dhbjashdbasjhd"]
         
 
     },
     {
-        id:2,
-        name:"east west college",
+        id:3,
+        name:"eastiowowllege",
         state:"tamil nadu",
-        reviews:3,
+        reviews:1,
+        comment:["brrrrroooooooj","jahsvdjashdvsjhadv","jashvdjhasdvasjdysguuuuusius"]
         
 
-    }
+    },
+    {
+    id:4,
+    name:"hellowowo",
+    state:"tsssssdu",
+    reviews:2,
+    comment:["awesooooooommmmmmmeeeeeeeej","lolololololo","lmaoooooooooooo"]
+    
+
+}
 ]
+}
 export default Data
