@@ -16,12 +16,16 @@ import HomeScreen from "./Screens/HomeScreen";
 import ReviewScreen from "./Screens/ReviewScreen"
 import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 import CollegeReviewForm from "./components/CollegeReviewForm";
+import Addclgform from "./components/Addclgform";
+
+
 
 function App() {
+
+
   return(
 
-  
-    
+
          
     <Router>
             <>

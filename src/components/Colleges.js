@@ -1,6 +1,6 @@
 import College from "./College"
 import Data from "../Data"
-const Colleges=()=>{
+const Colleges=({product})=>{
 
     return(
     
@@ -18,7 +18,7 @@ const Colleges=()=>{
       <div className="container">
         <div className="row">
         
-        <College />
+        <College product={product}/>
     
      
   

@@ -1,59 +1,48 @@
 
-const initialData=[
-    {
-            
-            id:1,
-            name:"east west college",
-            state:"karnataka",
-            reviews:3,
-            comment:["akshay","hfhgfdhgfdxgfdxgfxsfg"]
-            
-        }, {
-            id:2,
-            name:"east wwwwcollege",
-            state:"kerela",
-            reviews:9,
-            comment:["helollwllwllw","olalalalalal","dhbjashdbasjhd"]
-            
+
+
+
     
-        },
-        {
-            id:3,
-            name:"eastiowowllege",
-            state:"tamil nadu",
-            reviews:1,
-            comment:["brrrrroooooooj","jahsvdjashdvsjhadv","jashvdjhasdvasjdysguuuuusius"]
-            
-    
-        },
-        {
-        id:4,
-        name:"hellowowo",
-        state:"tsssssdu",
-        reviews:2,
-        comment:["awesooooooommmmmmmeeeeeeeej","lolololololo","lmaoooooooooooo"]
-        
-    
-    }
-    ]
         
 
 
 
 
-const reducer=(state=initialData,action)=>{
- 
+const reducer=(state={products:[]},action)=>{
+
  
     switch(action.type){
         
         case "ADD_REVIEW":
-            const{id,data}= action.payload
+       
+console.log(action.payload)
+            const {id,data,star}= action.payload
+      
            const colleges = state.find(college => college.id === action.payload.id)
            
            state=state.filter(college => college.id !==action.payload.id)
            
+       
+           
         
-            return([...state, {...colleges,comment:[...colleges.comment,data]}])
+          console.log([...state, {...colleges,
+                param1:star.param1,
+                param2:star.param2,
+                param3:star.param3,
+                param4:star.param4,
+                comment:[...colleges.comment,data]}])
+                return ([...state, {...colleges,
+                    param1:star.param1,
+                    param2:star.param2,
+                    param3:star.param3,
+                    param4:star.param4,
+                    ratings:(star.param1+star.param2+star.param3+star.param4)/4,
+                    comment:[...colleges.comment,data]}])
+                
+                    case "GET_DATA":
+                       
+                        return {loading:false,products:action.payload}
+                   
          
             default: return state
 

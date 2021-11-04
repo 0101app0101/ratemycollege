@@ -1,13 +1,13 @@
 
 import Data from "../Data"
 
-const College =()=>{
+const College =({product})=>{
 
 
 
     return(
         
-         Data.products.map((product)=>( 
+         product.map((product)=>( 
 
         <div className="col-sm-4">
  <div className="dedicated">

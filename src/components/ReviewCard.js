@@ -4,9 +4,10 @@ import { FaMeh } from "react-icons/fa"
 import Data from "../Data"
 import { connect } from "react-redux"
 import reducer from "../Reducer/Reducer"
-const ReviewCard = ({Comment}) => {
-
+const ReviewCard = ({Comment},param1) => {
+// console.log(param1)
 // console.log(comments)
+
 
 
 return(
@@ -14,7 +15,8 @@ return(
       <div className="card-body">
       <div className="row ">
           <div className="col-sm-1 text-center">
-          <FaSmile className="my-sm-5 mx-sm-4 " style={{fontSize:50+"px",color:"green"}}/>
+              
+          {param1>4?<FaSmile className="my-sm-5 mx-sm-4 " style={{fontSize:50+"px",color:"green"}}/>:param1>=3?<FaMeh className="my-sm-5 mx-sm-4 " style={{fontSize:50+"px",color:"orange"}}/>:<FaFrown className="my-sm-5 mx-sm-4 " style={{fontSize:50+"px",color:"red"}}/>}
           </div>
           <div className="col-sm-9 text-left">
           <h4 className=" comments-text my-sm-5 ml-sm-4 " style={{fontWeight:600}}>
@@ -34,7 +36,7 @@ return(
 const mapstatetoprops = state=>{
      return{
 
-     comments: state.reducer.comment
+     param1:state.reducer.param1,
 }}
 
 export default connect(mapstatetoprops)(ReviewCard)

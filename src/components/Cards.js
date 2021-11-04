@@ -3,7 +3,7 @@
 
 import Slider from "react-slick";
 import Card from './Card';
-const Cards=()=>{
+const Cards=({product})=>{
   const settings = {
     dots: true,
     lazyLoad: true,
@@ -88,7 +88,7 @@ const Cards=()=>{
     
                <Slider {...settings}>
                 
-        <Card />
+        <Card product={product} />
         
      
     

@@ -25,7 +25,7 @@ const Reviews =({Comments,Id})=>{
                 </div>
               </div>
 
-              {Comments.map((comment)=><ReviewCard Comment={comment}></ReviewCard>)}
+              {Comments.map((comment)=><ReviewCard Comment={comment} ></ReviewCard>)}
            
               </div>
           </div>

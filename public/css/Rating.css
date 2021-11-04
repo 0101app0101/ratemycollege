@@ -34,3 +34,7 @@
 .rating:hover>input:checked~label:before {
     opacity: 0.4
 }
+.fa-star:before,.fa-star-half-o:before {
+    content: "\f005";
+    color: orange;
+}

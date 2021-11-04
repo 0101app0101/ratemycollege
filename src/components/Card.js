@@ -1,12 +1,12 @@
 import Data from "../Data"
 
 
-const Card=()=>{
+const Card=({product})=>{
   
   
     return(
       
-      Data.products.map((product)=>( 
+      product.map((product)=>( 
 
       <div className="container" >
           

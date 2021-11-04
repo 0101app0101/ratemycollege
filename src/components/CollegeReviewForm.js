@@ -5,14 +5,14 @@ import {addReview} from '../Actions/Action'
 import { useDispatch } from 'react-redux';
 
 const CollegeReviewForm =({Id})=>{
+  
  
 
   const addreview=(e)=>{
-    dispatch(addReview(inputvalue, Id),e.preventDefault(),setInputvalue(''))
+    dispatch(addReview(inputvalue, Id,starstate),e.preventDefault(),setInputvalue(''))
   }
 
-  
-
+ 
   
 
   const dispatch= useDispatch()
